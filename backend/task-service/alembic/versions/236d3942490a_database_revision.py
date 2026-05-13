@@ -1,15 +1,15 @@
-"""Initial migration
+"""database_revision
 
-Revision ID: bb78cf6c84b5
+Revision ID: 236d3942490a
 Revises: 
-Create Date: 2026-05-13 15:50:53.298849
+Create Date: 2026-05-13 17:14:55.082050
 
 """
 from alembic import op
 import sqlalchemy as sa
 
 
-revision = 'bb78cf6c84b5'
+revision = '236d3942490a'
 down_revision = None
 branch_labels = None
 depends_on = None
